@@ -1,0 +1,12 @@
+[package]
+name = "gtk-rust-error-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+glib = "0.15.12"
+gtk = { version = "0.4.8", package = "gtk4", features = ["v4_8"] }
+
+[build-dependencies]
+glib = "0.15.12"
+gtk = { version = "0.4.8", package = "gtk4", features = ["v4_8"] }
